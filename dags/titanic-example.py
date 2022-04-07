@@ -15,7 +15,7 @@ args = {
     'depends_on_past': False
 }
 
-FILENAME = os.path.join(os.path.expanduser("~"), "Downloads", 'titanic.csv')
+FILENAME = os.path.join(os.path.expanduser("~"), "loads", 'titanic.csv')
 
 
 def download():
