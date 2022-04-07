@@ -37,7 +37,7 @@ def pivot():
         aggfunc='count'
     ).reset_index()
 
-    pvt.to_csv(os.path.join(os.path.expanduser("~"), "Downloads", 'titanic_pvt.csv'))
+    pvt.to_csv(os.path.join(os.path.expanduser("~"), "loads", 'titanic_pvt.csv'))
 
 
 with DAG(dag_id='df_pivot',
